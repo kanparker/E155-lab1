@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Sep  1 17:13:27 2025
+Tue Sep  2 03:36:09 2025
 
 
 Command Line:  C:\lscc\radiant\2024.2\ispfpga\bin\nt64\synthesis.exe -f C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/impl_1/e155_lab1_impl_1_lattice.synproj -logfile e155_lab1_impl_1_lattice.srp -gui -msgset C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/promote.xml 
@@ -116,6 +116,8 @@ Mixed language design
 CRITICAL <35001476> - synthesis: A top-level module has not been specified for the mixed language design.
 Verilog design file: C:/lscc/radiant/2024.2/ip/pmi/pmi_iCE40UP.v
 Verilog design file: C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/top.sv
+Verilog design file: C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv
+Verilog design file: C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv
 VHDL library: pmi
 VHDL design file: C:/lscc/radiant/2024.2/ip/pmi/pmi_iCE40UP.vhd
 WARNING <35935050> - synthesis: input port TRIM9 is not connected on this instance. VDB-5050
@@ -167,6 +169,8 @@ INFO <35901328> - synthesis: c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(16): an
 INFO <35901328> - synthesis: c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dq_be.v(45): analyzing included file c:/lscc/radiant/2024.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v. VERI-1328
 INFO <35901328> - synthesis: c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(17): analyzing included file c:/lscc/radiant/2024.2/ip/pmi/pmi_dsp.v. VERI-1328
 Analyzing Verilog file c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/top.sv. VERI-1482
+Analyzing Verilog file c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv. VERI-1482
+Analyzing Verilog file c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv. VERI-1482
 Analyzing VHDL file c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.vhd. VHDL-1481
 Analyzing VHDL file c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.vhd
 
@@ -176,7 +180,9 @@ INFO <35921504> - synthesis: The default VHDL library search path is now "C:/Use
 Top module language type = Verilog.
 Top module name (Verilog, mixed language): top
 INFO <35901018> - synthesis: c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/top.sv(1): compiling module top. VERI-1018
+INFO <35901018> - synthesis: c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv(1): compiling module three_led. VERI-1018
 INFO <35901018> - synthesis: C:/lscc/radiant/2024.2/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756): compiling module HSOSC. VERI-1018
+INFO <35901018> - synthesis: c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(1): compiling module seven_seg_display. VERI-1018
 [Parameter Setting Section Start]
 
 	[Parameter Settings for Instance(s): hf_osc]
@@ -184,11 +190,9 @@ INFO <35901018> - synthesis: C:/lscc/radiant/2024.2/ispfpga/../cae_library/synth
 		CLKHF_DIV                 "0b00"
 
 [Parameter Setting Section End]
-CRITICAL <35002028> - synthesis: I/O port's net has no driver and is unused: clk
 
 
 
-CRITICAL <35002028> - synthesis: I/O port's net has no driver and is unused: clk
 
 ################### Begin Area Report (top)######################
 Number of register bits => 32 of 5280 (0 % )
@@ -196,30 +200,29 @@ CCU2 => 17
 FD1P3XZ => 32
 HSOSC => 1
 IB => 4
-LUT4 => 2
-OB => 3
+LUT4 => 9
+OB => 10
 ################### End Area Report ##################
 Number of odd-length carry chains : 0
 Number of even-length carry chains : 1
 
 ################### Begin Clock Report ######################
 Clock Nets
-Number of Clocks: 1
-  Net : int_osc, loads : 0
+Number of Clocks: 0
 Clock Enable Nets
 Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : led_c_31_N_1[31], loads : 18
-  Net : n168, loads : 18
-  Net : led_c_31_N_1[30], loads : 17
-  Net : led_c_31_N_1[29], loads : 17
-  Net : n166, loads : 17
-  Net : led_c_31_N_1[28], loads : 16
-  Net : led_c_31_N_1[27], loads : 16
-  Net : n164, loads : 16
-  Net : led_c_31_N_1[26], loads : 15
-  Net : led_c_31_N_1[25], loads : 15
+  Net : three/int_osc, loads : 32
+  Net : three/n130, loads : 18
+  Net : three/led_c_2_N_1[31], loads : 18
+  Net : three/led_c_2_N_1[30], loads : 17
+  Net : three/n128, loads : 17
+  Net : three/led_c_2_N_1[29], loads : 17
+  Net : three/n126, loads : 16
+  Net : three/led_c_2_N_1[27], loads : 16
+  Net : three/led_c_2_N_1[28], loads : 16
+  Net : three/n124, loads : 15
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -234,4 +237,4 @@ Peak Memory Usage: 98 MB
 Total CPU Time: 5 secs 
 Total REAL Time: 8 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: 310f201260460a56f3583b0fb1a7a705ec2b481d
+Checksum -- synthesis -- netlist: 2df350b785d49f6949a6d4f13e7c63a54526e86

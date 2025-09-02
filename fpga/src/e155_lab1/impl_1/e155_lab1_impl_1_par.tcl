@@ -23,6 +23,9 @@ if {[file exists {C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/impl
   file copy -force -- {C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/impl_1/e155_lab1_impl_1_syn.udb} {C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/impl_1/incr/postsyn.udb}
   file copy -force -- {C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/impl_1/e155_lab1_impl_1_map.udb} {C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/impl_1/incr/postmap.udb}
   file copy -force -- {C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/impl_1/e155_lab1_impl_1.udb} {C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/impl_1/incr/postpar.udb}
+  if [file exists {C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/e155_lab1.pdc}] {
+    file copy -force -- {C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/e155_lab1.pdc} {C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/impl_1/incr/lastrun.pdc}
+  }
 }
 
 } out]} {

@@ -1,0 +1,950 @@
+# Reading pref.tcl
+# //  Questa Lattice OEM Edition-64
+# //  Version 2024.2 win64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project e155_lab1_test
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.testbench -L iCE40UP
+# vsim -gui work.testbench -L iCE40UP 
+# Start time: 23:35:11 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'testbench' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/three/hf_osc File: nofile
+# Error loading design
+# End time: 23:35:25 on Sep 01,2025, Elapsed time: 0:00:14
+# Errors: 1, Warnings: 5
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L iCE40UP work.testbench
+# vsim -gui -L iCE40UP work.testbench 
+# Start time: 23:40:51 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOS# End time: 00:56:56 on Sep 02,2025, Elapsed time: 2:33:53
+# Errors: 0, Warnings: 1
+: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: kanparker  Hostname: 7GMZ0R3  ProcessID: 26728
+#           Attempting to use alternate WLF file "./wlft26zhvy".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft26zhvy
+run 200
+# ** Warning: (vsim-7) Failed to open readmem file "e155_lab1.tv" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(50)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+# Causality operation skipped due to absence of debug database file
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+quit -sim
+# End time: 23:46:02 on Sep 01,2025, Elapsed time: 0:05:11
+# Errors: 0, Warnings: 11
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L iCE40UP work.testbench
+# vsim -gui -L iCE40UP work.testbench 
+# Start time: 23:46:24 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run 200
+# ** Warning: (vsim-7) Failed to open readmem file ".e155_lab1.tv" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(50)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+run 200
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run 200
+# ** Warning: (vsim-7) Failed to open readmem file ".e155_lab1.tv" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(50)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run 200
+# ** Warning: (vsim-7) Failed to open readmem file ".e155_lab1.tv" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(50)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run 200
+# ** Warning: (vsim-7) Failed to open readmem file ".e155_lab1.tv" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(50)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run 200
+add wave -position insertpoint  \
+sim:/testbench/dut/three/led
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: kanparker  Hostname: 7GMZ0R3  ProcessID: 26728
+#           Attempting to use alternate WLF file "./wlftjx1dv7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjx1dv7
+run 200
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run 200
+run 1000
+run 10000
+run -all
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000x00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111110 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001x01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0010000 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000010 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1101101 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000011 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111001 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000100 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0110011 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000101 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1011011 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000110 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1011111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000111 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1110000 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001000 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001001 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1110011 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001010 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1110111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001011 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0011111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001100 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001101 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001101 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx11 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0011111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001110 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx11 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1001111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001111 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx10 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1000111 expected)
+#         46 tests completed with         46 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(111)
+#    Time: 475 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 111
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000x00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111110 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001x01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0010000 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000010 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1101101 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000011 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111001 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000100 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0110011 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000101 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1011011 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000110 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1011111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000111 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1110000 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001000 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001001 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1110011 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001010 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1110111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001011 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0011111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001100 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001101 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001101 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx11 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0011111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001110 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx11 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1001111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001111 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx10 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1000111 expected)
+#         46 tests completed with         46 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(111)
+#    Time: 475 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 111
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000x00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111110 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001x01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0010000 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000010 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1101101 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000011 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111001 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000100 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0110011 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000101 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1011011 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000110 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1011111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000111 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1110000 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001000 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001001 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1110011 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001010 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1110111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001011 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0011111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001100 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001101 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001101 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx11 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0011111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001110 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx11 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1001111 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001111 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx10 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1000111 expected)
+#         46 tests completed with         46 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(111)
+#    Time: 475 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 111
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 6 of file "e155_lab1.tv". (Current address [8], address range [0:7])    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(53)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000x00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111110 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001x01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0010000 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000010 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1101101 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000011 expected)
+#          8 tests completed with          8 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(114)
+#    Time: 95 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 114
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 6 of file "e155_lab1.tv". (Current address [8], address range [0:7])    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(53)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000x00 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111110 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0001x01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0010000 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000010 expected)
+# Error: inputs = xxxx
+#  outputs = 0xx xxxxxxx (xxx xxxxx01 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1101101 expected)
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 0000011 expected)
+#          8 tests completed with          8 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(114)
+#    Time: 95 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 114
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 11 of file "e155_lab1.tv". (Current address [8], address range [0:7])    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(53)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+# Error: inputs = 0000
+#  outputs = 000 0000001 (x00 1111110 expected)
+# Error: inputs = 0001
+#  outputs = 001 1101111 (x01 0010000 expected)
+# Error: inputs = 0010
+#  outputs = 001 0010010 (x01 1101101 expected)
+# Error: inputs = 0011
+#  outputs = 000 1000110 (x00 1111001 expected)
+# Error: inputs = 0100
+#  outputs = 000 0001100 (x00 0110011 expected)
+# Error: inputs = 0101
+#  outputs = 001 0100100 (x01 1011011 expected)
+# Error: inputs = 0110
+#  outputs = 001 0100000 (x01 1011111 expected)
+# Error: inputs = 0111
+#  outputs = 000 0001111 (x00 1110000 expected)
+#          8 tests completed with          8 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(114)
+#    Time: 95 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 114
+add wave -position insertpoint sim:/testbench/dut/three/hf_osc/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/testbench/dut/three/hf_osc/*'.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 11 of file "e155_lab1.tv". (Current address [8], address range [0:7])    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(53)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+# Error: inputs = 0000
+#  outputs = 000 0000001 (x00 1111110 expected)
+# Error: inputs = 0001
+#  outputs = 001 1101111 (x01 0010000 expected)
+# Error: inputs = 0010
+#  outputs = 001 0010010 (x01 1101101 expected)
+# Error: inputs = 0011
+#  outputs = 000 1000110 (x00 1111001 expected)
+# Error: inputs = 0100
+#  outputs = 000 0001100 (x00 0110011 expected)
+# Error: inputs = 0101
+#  outputs = 001 0100100 (x01 1011011 expected)
+# Error: inputs = 0110
+#  outputs = 001 0100000 (x01 1011111 expected)
+# Error: inputs = 0111
+#  outputs = 000 0001111 (x00 1110000 expected)
+#          8 tests completed with          8 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(114)
+#    Time: 95 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 114
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 11 of file "e155_lab1.tv". (Current address [8], address range [0:7])    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(53)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+# Error: inputs = 0000
+#  outputs = 000 0000001 (x00 1111110 expected)
+# Error: inputs = 0001
+#  outputs = 001 1101111 (x01 0010000 expected)
+# Error: inputs = 0010
+#  outputs = 001 0010010 (x01 1101101 expected)
+# Error: inputs = 0011
+#  outputs = 000 1000110 (x00 1111001 expected)
+# Error: inputs = 0100
+#  outputs = 000 0001100 (x00 0110011 expected)
+# Error: inputs = 0101
+#  outputs = 001 0100100 (x01 1011011 expected)
+# Error: inputs = 0110
+#  outputs = 001 0100000 (x01 1011111 expected)
+# Error: inputs = 0111
+#  outputs = 000 0001111 (x00 1110000 expected)
+#          8 tests completed with          8 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(114)
+#    Time: 95 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 114
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 11 of file "e155_lab1.tv". (Current address [8], address range [0:7])    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(53)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+# Error: inputs = 0000
+#  outputs = 000 0000001 (000 1111110 expected)
+# Error: inputs = 0001
+#  outputs = 001 1101111 (001 0010000 expected)
+# Error: inputs = 0010
+#  outputs = 001 0010010 (001 1101101 expected)
+# Error: inputs = 0011
+#  outputs = 000 1000110 (000 1111001 expected)
+# Error: inputs = 0100
+#  outputs = 000 0001100 (000 0110011 expected)
+# Error: inputs = 0101
+#  outputs = 001 0100100 (001 1011011 expected)
+# Error: inputs = 0110
+#  outputs = 001 0100000 (001 1011111 expected)
+# Error: inputs = 0111
+#  outputs = 000 0001111 (000 1110000 expected)
+#          8 tests completed with          8 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(114)
+#    Time: 95 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 114
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 11 of file "e155_lab1.tv". (Current address [8], address range [0:7])    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(53)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+# Error: inputs = 0011
+#  outputs = 000 1000110 (000 0000110 expected)
+# Error: inputs = 0100
+#  outputs = 000 0001100 (000 1001100 expected)
+#          8 tests completed with          2 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(114)
+#    Time: 95 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 114
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 11 of file "e155_lab1.tv". (Current address [8], address range [0:7])    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(53)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+#          8 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(114)
+#    Time: 95 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 114
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+# Error: inputs = 1100
+#  outputs = 010 1110010 (000 1110010 expected)
+#         16 tests completed with          1 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(114)
+#    Time: 175 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 114
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.testbench(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+#         16 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(114)
+#    Time: 175 ns  Iteration: 1  Instance: /testbench
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 114
+quit -sim
+# End time: 00:59:17 on Sep 02,2025, Elapsed time: 1:12:53
+# Errors: 0, Warnings: 1
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of testbench_seven.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui -L iCE40UP work.testbench_seven
+# vsim -gui -L iCE40UP work.testbench_seven 
+# Start time: 01:00:11 on Sep 02,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.testbench_seven(fast)
+run -all
+#         16 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_seven.sv(113)
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_seven
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_seven.sv line 113
+quit -sim
+# End time: 01:04:07 on Sep 02,2025, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 3
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of testbench_seven.sv was successful.
+# Compile of testbench_three.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -L iCE40UP work.testbench_three
+# vsim -gui -L iCE40UP work.testbench_three 
+# Start time: 01:04:48 on Sep 02,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.testbench_three(fast)
+# Loading iCE40UP.HSOSC(fast)
+add wave -position insertpoint  \
+sim:/testbench_three/dut/led
+run -all
+# Error: inputs = 0000
+#  outputs = 000  ( 000 expected)
+# Error: inputs = 0001
+#  outputs = 001  ( 001 expected)
+# Error: inputs = 0010
+#  outputs = 001  ( 001 expected)
+# Error: inputs = 0011
+#  outputs = 000  ( 000 expected)
+# Error: inputs = 0100
+#  outputs = 000  ( 000 expected)
+# Error: inputs = 0101
+#  outputs = 001  ( 001 expected)
+# Error: inputs = 0110
+#  outputs = 001  ( 001 expected)
+# Error: inputs = 0111
+#  outputs = 000  ( 000 expected)
+# Error: inputs = 1000
+#  outputs = 000  ( 000 expected)
+# Error: inputs = 1001
+#  outputs = 001  ( 001 expected)
+# Error: inputs = 1010
+#  outputs = 001  ( 001 expected)
+# Error: inputs = 1011
+#  outputs = 000  ( 000 expected)
+# Error: inputs = 1100
+#  outputs = 010  ( 010 expected)
+# Error: inputs = 1101
+#  outputs = 011  ( 011 expected)
+# Error: inputs = 1110
+#  outputs = 011  ( 011 expected)
+# Error: inputs = 1111
+#  outputs = 010  ( 010 expected)
+#         16 tests completed with         16 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_three.sv(113)
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_three
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_three.sv line 113
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of testbench_seven.sv was successful.
+# Compile of testbench_three.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.testbench_three(fast)
+# Loading iCE40UP.HSOSC(fast)
+run -all
+#         16 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_three.sv(113)
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_three
+# Break at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_three.sv line 113
+quit -sim
+# End time: 01:38:09 on Sep 02,2025, Elapsed time: 0:33:21
+# Errors: 0, Warnings: 1
+vsim -gui -L iCE40UP work.testbench_seven -voptargs=+acc
+# vsim -gui -L iCE40UP work.testbench_seven -voptargs="+acc" 
+# Start time: 01:38:25 on Sep 02,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench_seven(fast)
+# Loading work.seven_seg_display(fast)
+# Compile of top.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# Compile of three_led.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of testbench_seven.sv was successful.
+# Compile of testbench_three.sv was successful.
+# 6 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/testbench_seven/s
+add wave -position insertpoint  \
+sim:/testbench_seven/led
+quit -sim
+# End time: 03:42:11 on Sep 02,2025, Elapsed time: 2:03:46
+# Errors: 0, Warnings: 3
+vsim -gui -L iCE40UP -voptargs=+acc work.seven_seg_display
+# vsim -gui -L iCE40UP -voptargs="+acc" work.seven_seg_display 
+# Start time: 03:42:33 on Sep 02,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.seven_seg_display(fast)
+add wave -position insertpoint  \
+sim:/seven_seg_display/s
+add wave -position insertpoint  \
+sim:/seven_seg_display/seg
+add wave -position insertpoint  \
+sim:/seven_seg_display/A
+add wave -position insertpoint  \
+sim:/seven_seg_display/B
+add wave -position insertpoint  \
+sim:/seven_seg_display/C
+add wave -position insertpoint  \
+sim:/seven_seg_display/D
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.seven_seg_display(fast)
+run -all
+quit -sim
+# End time: 03:44:33 on Sep 02,2025, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 2
+vsim -gui -L iCE40UP -voptargs=+acc work.testbench_seven
+# vsim -gui -L iCE40UP -voptargs="+acc" work.testbench_seven 
+# Start time: 03:44:43 on Sep 02,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench_seven(fast)
+# Loading work.seven_seg_display(fast)
+add wave -position insertpoint  \
+sim:/testbench_seven/s
+add wave -position insertpoint  \
+sim:/testbench_seven/seg
+add wave -position insertpoint  \
+sim:/testbench_seven/seg_expected
+run -all
+# Error: inputs = 1101
+#  outputs = 1000010  ( 1000000 expected)
+#         16 tests completed with          1 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_seven.sv(113)
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_seven
+# Break in Module testbench_seven at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_seven.sv line 113
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.testbench_seven(fast)
+# Loading work.seven_seg_display(fast)
+run -all
+#         16 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_seven.sv(113)
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_seven
+# Break in Module testbench_seven at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_seven.sv line 113
+quit -sim
+# End time: 03:47:29 on Sep 02,2025, Elapsed time: 0:02:46
+# Errors: 0, Warnings: 2
+vsim -gui -L iCE40UP -voptargs=+acc work.testbench_three
+# vsim -gui -L iCE40UP -voptargs="+acc" work.testbench_three 
+# Start time: 03:47:42 on Sep 02,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench_three(fast)
+# Loading work.three_led(fast)
+# Loading iCE40UP.HSOSC(fast)
+add wave -position insertpoint  \
+sim:/testbench_three/s
+add wave -position insertpoint  \
+sim:/testbench_three/led
+add wave -position insertpoint  \
+sim:/testbench_three/led_expected
+run -all
+#         16 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_three.sv(113)
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_three
+# Break in Module testbench_three at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_three.sv line 113
+quit -sim
+# End time: 03:49:45 on Sep 02,2025, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 2
+vsim -gui -L iCE40UP -voptargs=+acc work.testbench
+# vsim -gui -L iCE40UP -voptargs="+acc" work.testbench 
+# Start time: 03:50:00 on Sep 02,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.three_led(fast)
+# Loading iCE40UP.HSOSC(fast)
+# Loading work.seven_seg_display(fast)
+add wave -position insertpoint  \
+sim:/testbench/s
+add wave -position insertpoint  \
+sim:/testbench/led
+add wave -position insertpoint  \
+sim:/testbench/led_expected
+add wave -position insertpoint  \
+sim:/testbench/seg
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+add wave -position insertpoint  \
+sim:/testbench/seg_expected
+add wave -position insertpoint  \
+sim:/testbench/seg_expected
+run -all
+#         16 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv(114)
+#    Time: 175 ns  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv line 114

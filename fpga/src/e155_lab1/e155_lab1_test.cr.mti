@@ -1,0 +1,36 @@
+C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_three.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_three.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_three
+
+Top level modules:
+	testbench_three
+
+} {} {}} C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/top.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/top.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_seven.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench_seven.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_seven
+
+Top level modules:
+	testbench_seven
+
+} {} {}} C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/testbench.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module three_led
+
+Top level modules:
+	three_led
+
+} {} {}}
