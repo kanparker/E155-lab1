@@ -1,0 +1,9 @@
+-w
+-gui
+-msgset "C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/promote.xml"
+-n 1
+-t 1
+-s 1
+-cores 1
+-hsp m
+-exp parPathBased=ON

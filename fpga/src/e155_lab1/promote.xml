@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userSetting name="C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/promote.xml" version="Diamond (64-bit) 2024.2.0.3.0" date="Mon Sep 01 17:14:01 2025" vendor="Lattice Semiconductor Corporation" >
+  <msg mid="35901328" type="Info" internal="true" />
+  <msg mid="2043011" type="Error" internal="true" />
+  <msg mid="35921504" type="Info" internal="true" />
+  <msg mid="2044079" type="Error" internal="true" />
+  <msg mid="2043137" type="Error" internal="true" />
+  <msg mid="2044344" type="Error" internal="true" />
+  <msg mid="2043372" type="Warning" internal="true" />
+  <msg mid="2043371" type="Error" internal="true" />
+  <msg mid="2043214" type="Error" internal="true" />
+  <msg mid="2043281" type="Error" internal="true" />
+  <msg mid="2043072" type="Error" internal="true" />
+  <msg mid="2043343" type="Error" internal="true" />
+</userSetting>
