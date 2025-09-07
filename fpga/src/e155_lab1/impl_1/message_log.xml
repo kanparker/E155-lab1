@@ -348,22 +348,22 @@
             <ID>35921504</ID>
             <Severity>1</Severity>
             <Dynamic></Dynamic>
-            <Dynamic>C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/impl_1</Dynamic>
+            <Dynamic>C:/Users/kanparker/Downloads/e155-lab1/E155-lab1/fpga/src/e155_lab1/impl_1</Dynamic>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/top.sv(1): </Dynamic>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/top.sv(1): </Dynamic>
             <Dynamic>top</Dynamic>
-            <Navigation>c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/top.sv</Navigation>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/top.sv</Navigation>
             <Navigation>1</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv(1): </Dynamic>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv(1): </Dynamic>
             <Dynamic>three_led</Dynamic>
-            <Navigation>c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv</Navigation>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv</Navigation>
             <Navigation>1</Navigation>
         </Message>
         <Message>
@@ -377,10 +377,140 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(1): </Dynamic>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(1): </Dynamic>
             <Dynamic>seven_seg_display</Dynamic>
-            <Navigation>c:/users/kanparker/downloads/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
             <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35908216</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(24): </Dynamic>
+            <Dynamic>4</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Dynamic>0</Dynamic>
+            <Dynamic>s</Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>24</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(34): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(36): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>36</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(38): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(40): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>40</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(42): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>42</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(44): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>44</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(46): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>46</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(48): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>48</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(50): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(52): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>52</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(54): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35901166</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(56): </Dynamic>
+            <Navigation>c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>seg_c_6</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>seg_c_5</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>seg_c_4</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>seg_c_3</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>seg_c_2</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>seg_c_1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>seg_c_0</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

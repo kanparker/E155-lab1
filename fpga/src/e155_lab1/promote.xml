@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<userSetting name="C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/promote.xml" version="Diamond (64-bit) 2024.2.0.3.0" date="Tue Sep 02 03:36:43 2025" vendor="Lattice Semiconductor Corporation" >
+<userSetting name="C:/Users/kanparker/Downloads/e155-lab1/E155-lab1/fpga/src/e155_lab1/promote.xml" version="Diamond (64-bit) 2024.2.0.3.0" date="Sat Sep 06 16:59:37 2025" vendor="Lattice Semiconductor Corporation" >
   <msg mid="35901328" type="Info" internal="true" />
   <msg mid="2043011" type="Error" internal="true" />
   <msg mid="35921504" type="Info" internal="true" />
-  <msg mid="35901220" type="Warning" internal="true" />
   <msg mid="2044079" type="Error" internal="true" />
+  <msg mid="35901220" type="Warning" internal="true" />
   <msg mid="2043018" type="Info" internal="true" />
   <msg mid="35901142" type="Warning" internal="true" />
   <msg mid="2043137" type="Error" internal="true" />
@@ -14,6 +14,9 @@
   <msg mid="2043214" type="Error" internal="true" />
   <msg mid="2043281" type="Error" internal="true" />
   <msg mid="2043072" type="Error" internal="true" />
+  <msg mid="2044320" type="Info" internal="true" />
   <msg mid="2043343" type="Error" internal="true" />
   <msg mid="35901012" type="Error" internal="true" />
+  <msg mid="2043063" type="Warning" internal="true" />
+  <msg mid="2043328" type="Info" internal="true" />
 </userSetting>

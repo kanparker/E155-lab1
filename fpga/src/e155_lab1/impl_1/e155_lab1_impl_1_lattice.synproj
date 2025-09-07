@@ -39,15 +39,15 @@
 -use_io_insertion 1
 
 -resolve_mixed_drivers 0
--path "C:/lscc/radiant/2024.2/ispfpga/ice40tp/data" "C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/impl_1" "C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1"
+-path "C:/lscc/radiant/2024.2/ispfpga/ice40tp/data" "C:/Users/kanparker/Downloads/e155-lab1/E155-lab1/fpga/src/e155_lab1/impl_1" "C:/Users/kanparker/Downloads/e155-lab1/E155-lab1/fpga/src/e155_lab1"
 -ver "C:/lscc/radiant/2024.2/ip/pmi/pmi_iCE40UP.v"
 -lib pmi -vhd "C:/lscc/radiant/2024.2/ip/pmi/pmi_iCE40UP.vhd"
--sver "C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/top.sv"
-"C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv"
-"C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv"
+-sver "C:/Users/kanparker/Downloads/e155-lab1/E155-lab1/fpga/src/e155_lab1/source/impl_1/top.sv"
+"C:/Users/kanparker/Downloads/e155-lab1/E155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv"
+"C:/Users/kanparker/Downloads/e155-lab1/E155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv"
 
 
--path "C:/Users/kanparker/Downloads/E155-lab1/fpga/src/e155_lab1"
+-path "C:/Users/kanparker/Downloads/e155-lab1/E155-lab1/fpga/src/e155_lab1"
 -udb "e155_lab1_impl_1_rtl.udb"
 -output_hdl "e155_lab1_impl_1.vm"
 
