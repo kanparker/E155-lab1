@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
-Sat Sep  6 16:58:58 2025
+Sat Sep  6 17:31:51 2025
 
 
 Command Line:  C:\lscc\radiant\2024.2\ispfpga\bin\nt64\synthesis.exe -f C:/Users/kanparker/Downloads/e155-lab1/E155-lab1/fpga/src/e155_lab1/impl_1/e155_lab1_impl_1_lattice.synproj -logfile e155_lab1_impl_1_lattice.srp -gui -msgset C:/Users/kanparker/Downloads/e155-lab1/E155-lab1/fpga/src/e155_lab1/promote.xml 
@@ -183,19 +183,6 @@ INFO <35901018> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fp
 INFO <35901018> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/three_led.sv(1): compiling module three_led. VERI-1018
 INFO <35901018> - synthesis: C:/lscc/radiant/2024.2/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756): compiling module HSOSC. VERI-1018
 INFO <35901018> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(1): compiling module seven_seg_display. VERI-1018
-WARNING <35908216> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(24): index 4 is out of range [3:0] for s. VERI-1216
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(34): case condition never applies. VERI-1166
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(36): case condition never applies. VERI-1166
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(38): case condition never applies. VERI-1166
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(40): case condition never applies. VERI-1166
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(42): case condition never applies. VERI-1166
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(44): case condition never applies. VERI-1166
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(46): case condition never applies. VERI-1166
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(48): case condition never applies. VERI-1166
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(50): case condition never applies. VERI-1166
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(52): case condition never applies. VERI-1166
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(54): case condition never applies. VERI-1166
-WARNING <35901166> - synthesis: c:/users/kanparker/downloads/e155-lab1/e155-lab1/fpga/src/e155_lab1/source/impl_1/seven_seg_display.sv(56): case condition never applies. VERI-1166
 [Parameter Setting Section Start]
 
 	[Parameter Settings for Instance(s): hf_osc]
@@ -213,7 +200,7 @@ CCU2 => 17
 FD1P3XZ => 32
 HSOSC => 1
 IB => 4
-LUT4 => 2
+LUT4 => 9
 OB => 10
 ################### End Area Report ##################
 Number of odd-length carry chains : 0
@@ -227,15 +214,15 @@ Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
   Net : three/int_osc, loads : 32
-  Net : three/n74, loads : 18
   Net : three/led_c_2_N_1[31], loads : 18
-  Net : three/n72, loads : 17
-  Net : three/led_c_2_N_1[29], loads : 17
+  Net : three/n186, loads : 18
+  Net : three/n184, loads : 17
   Net : three/led_c_2_N_1[30], loads : 17
-  Net : three/n70, loads : 16
+  Net : three/led_c_2_N_1[29], loads : 17
+  Net : three/n182, loads : 16
   Net : three/led_c_2_N_1[27], loads : 16
   Net : three/led_c_2_N_1[28], loads : 16
-  Net : three/n68, loads : 15
+  Net : three/n180, loads : 15
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -250,4 +237,4 @@ Peak Memory Usage: 98 MB
 Total CPU Time: 5 secs 
 Total REAL Time: 8 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: 8b9f27eae8f1d75813071e799d9cfca6b939620b
+Checksum -- synthesis -- netlist: 2f0332694bd32da5495c63f460b5e4388cef42e8

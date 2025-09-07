@@ -8,16 +8,12 @@ I/O cells:      14
                             FD1P3XZ        32          100.0
                               HSOSC         1          100.0
                                  IB         4          100.0
-                               LUT4         2          100.0
+                               LUT4         9          100.0
                                  OB        10          100.0
 SUB MODULES
                   seven_seg_display         1
                           three_led         1
-                              TOTAL        68
-----------------------------------------------------------------------
-Report for cell encrypted_cell.<NoName>
-Instance Path : encrypted_instance
-                              TOTAL         0
+                              TOTAL        75
 ----------------------------------------------------------------------
 Report for cell three_led.v1
 Instance Path : three
@@ -26,5 +22,12 @@ Instance Path : three
                                 FA2        17          100.0
                             FD1P3XZ        32          100.0
                               HSOSC         1          100.0
-                               LUT4         2          100.0
+                               LUT4         2           22.2
                               TOTAL        52
+----------------------------------------------------------------------
+Report for cell seven_seg_display.v1
+Instance Path : seven
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7           77.8
+                              TOTAL         7
